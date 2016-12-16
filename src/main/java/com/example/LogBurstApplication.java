@@ -22,15 +22,15 @@ public class LogBurstApplication {
         for (int i = 0; i < 200; i++) {
             int tryI = (int) (Math.random() * 100);
             if (tryI < 20) {
-                logger.trace("its a info message");
+                logger.trace("its a trace message");
             } else if (tryI < 40) {
                 logger.debug("its a debug message");
             } else if (tryI < 60) {
                 logger.info("its a info message");
             } else if (tryI < 80) {
-                logger.warn("its a info message");
+                logger.warn("its a warn message");
             } else if (tryI > 80) {
-                logger.error("its a info message");
+                logger.error("its a error message");
             }
         }
     }
