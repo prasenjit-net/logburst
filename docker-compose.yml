@@ -1,0 +1,11 @@
+version: '2'
+services:
+  identity:
+    image: prasenjitnet/log-burst
+    logging:
+      driver: splunk
+      options:
+        splunk-token: 00000000-0000-0000-0000-000000000000
+        splunk-url: http://192.168.56.100:8088/
+    ports:
+      - "6060:6060"
