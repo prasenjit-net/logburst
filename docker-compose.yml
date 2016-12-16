@@ -1,6 +1,6 @@
 version: '2'
 services:
-  identity:
+  logburst:
     image: prasenjitnet/log-burst
     logging:
       driver: splunk
