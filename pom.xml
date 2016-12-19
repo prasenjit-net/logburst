@@ -65,7 +65,6 @@
 				<version>0.4.13</version>
 				<configuration>
 					<imageName>prasenjitnet/${project.artifactId}</imageName>
-					<!--<dockerDirectory>src/main/docker</dockerDirectory>-->
 					<baseImage>openjdk:jre-alpine</baseImage>
 					<volumes>
 						<volume>/tmp</volume>
